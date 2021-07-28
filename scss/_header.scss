@@ -1,0 +1,31 @@
+.header {
+  width: inherit;
+
+  &__navbar {
+    width: inherit;
+
+    &__list {
+      display: flex;
+      flex-direction: row;
+      padding: 0.5rem 0;
+      margin: 0 1rem;
+      justify-content: flex-end;
+      align-items: center;
+      list-style: none;
+
+      &--item {
+        color: rgba(0, 0, 0, 0.8);
+        cursor: pointer;
+        display: flex;
+        margin-left: 1.2rem;
+        font-size: 0.85rem;
+        letter-spacing: 0.1px;
+
+        &-img {
+          width: 2.2rem;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}

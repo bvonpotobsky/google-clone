@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: rgb(242, 242, 242);
+  color: rgb(112, 117, 122);
+  font-size: 0.85rem;
+
+  &__leftList {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
+    &--item {
+      padding-right: 1.2rem;
+    }
+  }
+
+  &__rightList {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
+    &--item {
+      padding-left: 1.2rem;
+    }
+  }
+}
