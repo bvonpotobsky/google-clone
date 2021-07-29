@@ -1,11 +1,13 @@
 .footer {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
   justify-content: space-between;
   padding: 1rem 2rem;
-  background-color: rgb(242, 242, 242);
-  color: rgb(112, 117, 122);
+
   font-size: 0.85rem;
+  color: rgb(112, 117, 122);
+  background-color: rgb(242, 242, 242);
 
   &__leftList {
     display: flex;
@@ -21,6 +23,7 @@
     display: flex;
     flex-direction: row;
     list-style: none;
+    justify-self: end;
 
     &--item {
       padding-left: 1.2rem;
